@@ -2,6 +2,8 @@
 
 A wrapper to use the swiss LV03 projection with [leaflet](http://leafletjs.com/)
 
+Explications [en français](https://github.com/idris-maps/idris-lv03/blob/master/readme_en_francais.md)
+
 ## Setup
 
 Create a folder ```myProject``` for your project
@@ -21,7 +23,7 @@ $ npm install idris-lv03 --save
 
 Copy the ```myProject/node_modules/idris-lv03/public``` folder to ```myProject/public```
 
-If watchify is not installed, install it 
+If [watchify](https://github.com/substack/watchify) is not installed, install it 
 
 ```
 $ sudo npm install watchify -g
