@@ -65,10 +65,11 @@ lv03.init(start, imagePath, function(map) {
 
 ###Add WMS tiles
 
-The only tile services available so for are from [ASIT-VD](http://www.asitvd.ch):
+The only tile services available so for are from [ASIT-VD](http://www.asitvd.ch) and [swisstopo](http://www.geo.admin.ch/internet/geoportal/fr/home/services/geoservices/display_services/services_wms.html#wms):
 
-* VD-WMS
-* HEIGVD-WMS-RPOD
+* VD-WMS [list of layers](http://www.asitvd.ch/index.php?option=com_content&view=article&id=243&catid=55&tmpl=component)
+* HEIGVD-WMS-RPOD [list of layers](http://www.r-pod.ch/wms-server/)
+* WMS-IFDG [list of layers](http://www.geo.admin.ch/internet/geoportal/fr/home/services/geoservices/display_services/services_wms.html#wms)
 
 To add a service, see **Add WMS service**.
 

@@ -1,5 +1,10 @@
 [
 	{
+		"name": "WMS-IFDG",
+		"url": "http://wms.geo.admin.ch/?",
+		"format": "image/png",
+		"attr": "&copy; Swisstopo"
+	},{
 		"name": "HEIGVD-WMS-RPOD",
 		"url": "http://ogc.heig-vd.ch/mapserver/wms?",
 		"format": "image/jpeg",
