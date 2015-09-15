@@ -73,7 +73,7 @@ The only tile services available so for are from [ASIT-VD](http://www.asitvd.ch)
 
 To add a service, see **Add WMS service**.
 
-To add a layer from an existing layer: **r-pod_yverdon_cygnes** from [HEIGVD-WMS-RPOD](http://www.r-pod.ch/wms-server/) for example, use ```lv03.wms(map, [SERVICE], [LAYER])``` like this:
+To add a layer from an existing service: **r-pod_yverdon_cygnes** from [HEIGVD-WMS-RPOD](http://www.r-pod.ch/wms-server/) for example, use ```lv03.wms(map, [SERVICE], [LAYER])``` like this:
 
 ```
 lv03.init(start, imagePath, function(map) {
