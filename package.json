@@ -1,0 +1,20 @@
+{
+  "name": "idris-lv03",
+  "version": "0.1.0",
+  "description": "Wrapper for the LV03 (swiss) projection for leaflet ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "WMS",
+    "leaflet",
+    "LV03"
+  ],
+  "author": "idris-maps.com",
+  "license": "GPL",
+  "dependencies": {
+    "leaflet": "~0.7.5",
+    "proj4leaflet": "~0.7.1"
+  }
+}
