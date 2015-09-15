@@ -16,6 +16,7 @@ exports.wms = function(map, service, layer) {
 }
 
 exports.point = function(map, coords) {
-	console.log('x', convert.CHtoWGSlat(coords[1], coords[0]))
-	console.log('y', convert.CHtoWGSlng(coords[1], coords[0]))
+	var lat = convert.CHtoWGSlat(coords[1], coords[0])
+	var lng = convert.CHtoWGSlng(coords[1], coords[0])
+	L.marker([lat,lng]).addTo(map)
 }
