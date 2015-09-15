@@ -109,7 +109,8 @@ var cygnes = {
 	url: 'http://ogc.heig-vd.ch/mapserver/wms?',
 	minZoom: 22,
 	format: 'image/jpeg',
-	attr: '&copy; HEIG-VD'
+	attr: '&copy; HEIG-VD',
+	layer: 'r-pod_yverdon_cygnes'
 }
 ```
 
