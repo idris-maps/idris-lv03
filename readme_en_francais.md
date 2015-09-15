@@ -82,7 +82,7 @@ var start = {
 
 #### Initialiser la carte avec ```lv03.init()```
 
-La fonction prends les variables ```start``` ete ```imagePath``` créées précédemment et renvoit une variable ```map```.
+La fonction prends les variables ```start``` et ```imagePath``` créées précédemment et renvoit une variable ```map```.
 
 ```
 lv03.init(start, imagePath, function(map) {
@@ -92,7 +92,7 @@ lv03.init(start, imagePath, function(map) {
 
 ### Ajouter un service WMS
 
-La configuration du service nécessite les clé suivantes:
+La configuration du service nécessite les clés suivantes:
 
 - ```url``` the URL to the service
 - ```format``` the format of the tiles, default is ```image/png```
@@ -127,9 +127,9 @@ Quelques services en libre accès:
 * HEIGVD-WMS-RPOD [liste des couches](http://www.r-pod.ch/wms-server/)
 * WMS-IFDG [liste des couches](http://www.geo.admin.ch/internet/geoportal/fr/home/services/geoservices/display_services/services_wms.html#wms)
 
-### Ajouter des couches leaflet en WGS84
+### Ajouter une couche leaflet en WGS84
 
-À l'inérieur du callback de ```lv03.init()```, vous pouvez ajouter n'importe quelle couche leaflet (comme L.marker(), L.geoJson() ...) avec des coordonnées en WGS84
+À l'intérieur du callback de ```lv03.init()```, vous pouvez une couche leaflet (comme L.marker(), L.geoJson() ...) avec des coordonnées en WGS84
 
 ```
 lv03.init(start, imagePath, function(map) {
