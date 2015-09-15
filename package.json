@@ -1,6 +1,6 @@
 {
   "name": "idris-lv03",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Wrapper for the LV03 (swiss) projection for leaflet ",
   "main": "index.js",
   "scripts": {
